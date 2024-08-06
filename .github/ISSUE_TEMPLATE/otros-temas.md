@@ -14,8 +14,6 @@ assignees: ''
 
 * [ ] Leí las reglas del foro (https://github.com/IIC2233/Syllabus/wiki/3.-Reglas-del-foro-(issues)).
 * [ ] Busqué en las *issues* si ya preguntaron mi duda y no encontré nada parecido (https://github.com/IIC2233/syllabus/issues).
-* [ ] Mi duda no se trata de un tema administrativo o personal, ya que en ese caso debo contactar a mi profe, al ayudante de Bienestar o al correo del curso (coordinacion.iic2233@gmail.com).
-* [ ] Utilizaré un título descriptivo y llenaré correctamente esta plantilla.
 
 ### Contenido
 

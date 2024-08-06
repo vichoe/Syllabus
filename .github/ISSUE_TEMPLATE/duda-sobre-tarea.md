@@ -2,7 +2,7 @@
 name: Duda sobre tarea
 about: Duda relacionada con la tarea actual
 title: ''
-labels: Tarea 4
+labels: Tarea 1
 assignees: ''
 
 ---
@@ -13,11 +13,8 @@ assignees: ''
 (Marcar colocando una `X` entre los corchetes los ítems que ya hiciste, así: `"[X]"`)
 
 * [ ] Leí las reglas del foro (https://github.com/IIC2233/Syllabus/wiki/3.-Reglas-del-foro-(issues)).
-* [ ] Busqué en las *issues* si ya preguntaron mi duda y no encontré nada parecido (https://github.com/IIC2233/Syllabus/issues/).
-* [ ] Revisé el compilado de dudas de la tarea y no encontré una *issue* similar a la mía ([click aquí para ir al compilado](/IIC2233/Syllabus/issues/504)).
-* [ ] Mi duda no se trata sobre una librería, *built-in* o mala práctica, ya que eso se pregunta en la *issue* creada para ello ([click aquí para ir a esa _issue_](/IIC2233/Syllabus/issues/503)).
-* [ ] Mi duda no se trata de un tema administrativo o personal, ya que en ese caso debo contactar a mi profe, al ayudante de Bienestar o al correo del curso (coordinacion.iic2233@gmail.com).
-* [ ] Utilizaré un título descriptivo y llenaré correctamente esta plantilla.
+* [ ] Revisé el compilado de dudas de la tarea y no encontré una *issue* similar a la mía ([click aquí para ir al compilado](/IIC2233/Syllabus/issues/XX)).
+* [ ] Mi duda no se trata sobre una librería, *built-in* o mala práctica, ya que eso se pregunta en la *issue* creada para ello ([click aquí para ir a esa _issue_](/IIC2233/Syllabus/issues/XX)).
 * [ ] De ser necesario, colocaré código simple que permita explicar mi problema o duda, ya que compartir código de esta evaluación puede ser considerado una falta a la ética.
 
 ### Duda

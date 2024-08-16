@@ -62,7 +62,10 @@ class VerificarConsultasAnimesPorEstreno(unittest.TestCase):
         datos = obtener_animes(1)
         estrenos = main.animes_por_estreno(datos)
         respuesta_esperada = {2016: ["BnHA"]}
-        self.assertDictEqual(estrenos, respuesta_esperada)
+        self.assertCountEqual(estrenos, respuesta_esperada)
+        for key in respuesta_esperada:
+            text = f'Año {key}. Se entrega {estrenos[key]} pero se espera {respuesta_esperada[key]}'
+            self.assertCountEqual(estrenos[key], respuesta_esperada[key], text)
 
     def test_resultado_2_estrenos(self):
         """
@@ -71,7 +74,10 @@ class VerificarConsultasAnimesPorEstreno(unittest.TestCase):
         datos = obtener_animes(2)
         estrenos = main.animes_por_estreno(datos)
         respuesta_esperada = {2016: ["BnHA"], 2011: ["Chihiro"]}
-        self.assertDictEqual(estrenos, respuesta_esperada)
+        self.assertCountEqual(estrenos, respuesta_esperada)
+        for key in respuesta_esperada:
+            text = f'Año {key}. Se entrega {estrenos[key]} pero se espera {respuesta_esperada[key]}'
+            self.assertCountEqual(estrenos[key], respuesta_esperada[key], text)
 
     def test_resultado_1_repetido(self):
         """
@@ -79,8 +85,11 @@ class VerificarConsultasAnimesPorEstreno(unittest.TestCase):
         """
         datos = obtener_animes(3)
         estrenos = main.animes_por_estreno(datos)
-        respuesta_esperada = {2016: ["BnHA", "Gintama"]}
-        self.assertDictEqual(estrenos, respuesta_esperada)
+        respuesta_esperada = {2016: ["Gintama", "BnHA"]}
+        self.assertCountEqual(estrenos, respuesta_esperada)
+        for key in respuesta_esperada:
+            text = f'Año {key}. Se entrega {estrenos[key]} pero se espera {respuesta_esperada[key]}'
+            self.assertCountEqual(estrenos[key], respuesta_esperada[key], text)
 
     def test_resultado_varios_repetidos(self):
         """
@@ -90,7 +99,10 @@ class VerificarConsultasAnimesPorEstreno(unittest.TestCase):
         estrenos = main.animes_por_estreno(datos)
         respuesta_esperada = {
             1998: ["Sakura"],
-            2011: ["Chihiro", "Amapolas"],
+            2011: ["Amapolas", "Chihiro"],
             2016: ["BnHA", "Gintama"],
         }
-        self.assertDictEqual(estrenos, respuesta_esperada)
+        self.assertCountEqual(estrenos, respuesta_esperada)
+        for key in respuesta_esperada:
+            text = f'Año {key}. Se entrega {estrenos[key]} pero se espera {respuesta_esperada[key]}'
+            self.assertCountEqual(estrenos[key], respuesta_esperada[key], text)

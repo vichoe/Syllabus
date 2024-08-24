@@ -64,7 +64,7 @@ class VerificarClaseAutoElectrico(unittest.TestCase):
         resultado = auto.recorrer(10000.3)
         self.assertEqual(auto.energia, 0)
         self.assertEqual(
-            resultado, "Anduve por 232.0Km y gaste 23.2W de energia electrica"
+            resultado, "Anduve por 232.0Km y eso consume 23.2W de energia electrica"
         )
 
     def test_recorrer_bajo_autonomia(self):
@@ -77,7 +77,7 @@ class VerificarClaseAutoElectrico(unittest.TestCase):
         resultado = auto.recorrer(99.0)
         self.assertEqual(auto.energia, 1.6)
         self.assertEqual(
-            resultado, "Anduve por 99.0Km y gaste 9.0W de energia electrica"
+            resultado, "Anduve por 99.0Km y eso consume 9.0W de energia electrica"
         )
 
     def test_recorrer_bajo_autonomia_2(self):
@@ -90,5 +90,5 @@ class VerificarClaseAutoElectrico(unittest.TestCase):
         resultado = auto.recorrer(29.3)
         self.assertAlmostEqual(auto.energia, 20.5, delta=0.2)
         self.assertAlmostEqual(auto.autonomia, 61.5, delta=0.2)
-        self.assertEqual(resultado, "Anduve por 29.3Km y gaste 9.8W de energia electrica")
+        self.assertEqual(resultado, "Anduve por 29.3Km y eso consume 9.8W de energia electrica")
 

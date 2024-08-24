@@ -92,5 +92,5 @@ class VerificarClaseTelsa(unittest.TestCase):
         auto = Telsa(vida_util_bateria=1, rendimiento=1, marca="c2", energia=101.2)
         res = auto.recorrer(12.2)
         self.assertEqual(
-            res, "Anduve por 12.2Km y gaste 12.2W de energia electrica de forma inteligente"
+            res, "Anduve por 12.2Km y eso consume 12.2W de energia electrica de forma inteligente"
         )

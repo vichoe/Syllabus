@@ -10,4 +10,6 @@
 
 1. Se corrige enunciado, para que energía sea por defecto `111.5` y no `111`.
 
-2. Se corrigen tests, dado que el enunciado pide imprimir, en recorrer, un texto que dice "y eso consume", pero los tests tenían otro texto. 
+2. Se corrigen tests, dado que el enunciado pide imprimir, en recorrer, un texto que dice "y eso consume", pero los tests tenían otro texto.
+
+3. Se corrige tests del Telsa donde faltaba un "muy" según el enunciado.

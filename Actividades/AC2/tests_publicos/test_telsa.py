@@ -73,7 +73,7 @@ class VerificarClaseTelsa(unittest.TestCase):
                 )
                 res = auto.recorrer(12.1)
                 mock_1.assert_called_once_with(auto, 12.1)
-                self.assertEqual(res, "test de forma inteligente")
+                self.assertEqual(res, "test de forma muy inteligente")
 
         except AssertionError:
             with patch("clases.AutoElectrico.recorrer") as mock_1:
@@ -83,7 +83,7 @@ class VerificarClaseTelsa(unittest.TestCase):
                 )
                 res = auto.recorrer(12.1)
                 mock_1.assert_called_once_with(12.1)
-                self.assertEqual(res, "test de forma inteligente")
+                self.assertEqual(res, "test de forma muy inteligente")
 
     def test_recorrer_Telsa(self):
         """
@@ -92,5 +92,5 @@ class VerificarClaseTelsa(unittest.TestCase):
         auto = Telsa(vida_util_bateria=1, rendimiento=1, marca="c2", energia=101.2)
         res = auto.recorrer(12.2)
         self.assertEqual(
-            res, "Anduve 12.2Km y eso consume 12.2W de energia electrica de forma inteligente"
+            res, "Anduve 12.2Km y eso consume 12.2W de energia electrica de forma muy inteligente"
         )

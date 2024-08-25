@@ -96,7 +96,7 @@ class VerificarClaseCamioneta(unittest.TestCase):
             bencina_favorita="95",
         )
         res = auto2.recorrer(10.5)
-        self.assertEqual(res, "Anduve por 10.5Km y eso consume 10.5L de bencina")
+        self.assertEqual(res, "Anduve 10.5Km y eso consume 10.5L de bencina")
 
     def test_recorrer_Camioneta_2(self):
         """
@@ -110,4 +110,4 @@ class VerificarClaseCamioneta(unittest.TestCase):
             bencina_favorita="95",
         )
         res = auto2.recorrer(4444.1)
-        self.assertEqual(res, "Anduve por 101.3Km y eso consume 101.3L de bencina")
+        self.assertEqual(res, "Anduve 101.3Km y eso consume 101.3L de bencina")

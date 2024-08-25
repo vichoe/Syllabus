@@ -64,7 +64,7 @@ class VerificarClaseAutoBencina(unittest.TestCase):
         resultado = auto.recorrer(100000.2)
         self.assertEqual(auto.energia, 0)
         self.assertEqual(auto.autonomia, 0)
-        self.assertEqual(resultado, "Anduve por 502.0Km y eso consume 50.2L de bencina")
+        self.assertEqual(resultado, "Anduve 502.0Km y eso consume 50.2L de bencina")
 
     def test_recorrer_bajo_autonomia(self):
         """
@@ -76,7 +76,7 @@ class VerificarClaseAutoBencina(unittest.TestCase):
         resultado = auto.recorrer(99.2)
         self.assertAlmostEqual(auto.energia, 30.8, delta=0.2)
         self.assertAlmostEqual(auto.autonomia, 61.6, delta=0.2)
-        self.assertEqual(resultado, "Anduve por 99.2Km y eso consume 49.6L de bencina")
+        self.assertEqual(resultado, "Anduve 99.2Km y eso consume 49.6L de bencina")
 
     def test_recorrer_bajo_autonomia_2(self):
         """
@@ -88,4 +88,4 @@ class VerificarClaseAutoBencina(unittest.TestCase):
         resultado = auto.recorrer(29.3)
         self.assertAlmostEqual(auto.energia, 20.5, delta=0.2)
         self.assertAlmostEqual(auto.autonomia, 61.5, delta=0.2)
-        self.assertEqual(resultado, "Anduve por 29.3Km y eso consume 9.8L de bencina")
+        self.assertEqual(resultado, "Anduve 29.3Km y eso consume 9.8L de bencina")

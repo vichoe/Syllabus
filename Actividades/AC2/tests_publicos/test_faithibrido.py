@@ -124,7 +124,7 @@ class VerificarClaseFaitHibrido(unittest.TestCase):
         res = auto.recorrer(10.5)
         self.assertEqual(
             res,
-            "Anduve por 10Km y eso consume 10.0L de bencina Anduve por 0.5Km y eso consume 0.5W de energia electrica",
+            "Anduve 10Km y eso consume 10.0L de bencina Anduve 0.5Km y eso consume 0.5W de energia electrica",
         )
 
     def test_recorrer_FaitHibrido_bajo_10_km(self):
@@ -136,7 +136,7 @@ class VerificarClaseFaitHibrido(unittest.TestCase):
             rendimiento=2, marca="c2", energia=102.2, bencina_favorita=95
         )
         res = auto.recorrer(5.2)
-        self.assertEqual(res, "Anduve por 5.2Km y eso consume 2.6W de energia electrica")
+        self.assertEqual(res, "Anduve 5.2Km y eso consume 2.6W de energia electrica")
 
     def test_recorrer_FaitHibrido_justo_10_km(self):
         """
@@ -147,4 +147,4 @@ class VerificarClaseFaitHibrido(unittest.TestCase):
             rendimiento=2, marca="c2", energia=102.2, bencina_favorita=95
         )
         res = auto.recorrer(10.0)
-        self.assertEqual(res, "Anduve por 10.0Km y eso consume 5.0W de energia electrica")
+        self.assertEqual(res, "Anduve 10.0Km y eso consume 5.0W de energia electrica")

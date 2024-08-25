@@ -13,3 +13,5 @@
 2. Se corrigen tests, dado que el enunciado pide imprimir, en recorrer, un texto que dice "y eso consume", pero los tests tenían otro texto.
 
 3. Se corrige tests del Telsa donde faltaba un "muy" según el enunciado.
+
+4. Se corrigen los tests de recorrer porque había un `"por"` en el texto que no era solicitado en el enunciado.

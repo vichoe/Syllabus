@@ -54,5 +54,5 @@ Las secciones 1,2 y 3 tendrán un sistema de rotación de ayudantes en sus horar
 
 Las secciones 4 y 5 tendrán sus ayudantes fijos con:
 
-* Sección 4 con Alejandro Held en la sala BC24 en el modulo 5
-* Sección 5 con Clemente Campos en la sala BC23 en el modulo 6
+* Sección 4 con **Alejandro Held** en la sala BC24 en el modulo 5
+* Sección 5 con **Clemente Campos** en la sala BC24 en el modulo 6

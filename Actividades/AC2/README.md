@@ -15,3 +15,8 @@
 3. Se corrige tests del Telsa donde faltaba un "muy" según el enunciado.
 
 4. Se corrigen los tests de recorrer porque había un `"por"` en el texto que no era solicitado en el enunciado.
+
+
+> 27 de agosto
+
+1. Se corrige test_faithibrido.py porque había un `10` que debía ser `10.0` (cuando el faithibrido recorre sobre 10 kilómetros). Se actualiza el tests para aceptar las 2 versiones de respuestas.

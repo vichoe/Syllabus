@@ -1,0 +1,6 @@
+nombre,apellido,area,cargo
+Patricio,Hinostroza,General,Lider Supremo
+Amanda,Sandoval,Bienestar,coordinadora
+Maria Pia,Vega,Tareas,Coordinadora
+Catalina,Ortega,Tareas,Jefa
+Julio,Huerta,Docencia,Coordinador
